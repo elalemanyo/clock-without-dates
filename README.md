@@ -1,7 +1,7 @@
 <p align="center">
   <img src="clock.svg" alt="Clock" width="300px">
 </p>
-<br>
+
 [![CI Status](https://github.com/elalemanyo/clock-without-dates/workflows/CI/badge.svg)](https://github.com/elalemanyo/clock-without-dates/actions)
 
 # Clock

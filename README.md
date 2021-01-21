@@ -1,4 +1,4 @@
-[![CI Status](https://github.com/elalemanyo/clock-without-dates/workflows/ci/badge.svg)](https://github.com/elalemanyo/clock-without-dates/actions)
+[![CI Status](https://github.com/elalemanyo/clock-without-dates/workflows/CI/badge.svg)](https://github.com/elalemanyo/clock-without-dates/actions)
 
 # Clock
 

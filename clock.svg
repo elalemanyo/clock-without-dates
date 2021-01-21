@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="600" viewBox="-1136 -1136 2272 2272" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>@keyframes rotation{0%{-ms-transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg)}to{-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}}</style>
+  <defs>
+    <path id="d" d="m-40-1e3h80v245h-80z"/>
+    <path id="a" d="m-15-1e3h30v80h-30z"/>
+    <path id="g" d="M-50-650H50l10 890H-60z"/>
+    <path id="f" d="M-40-950h80L50 250H-50z"/>
+    <g id="e">
+      <path d="m-20-550h30l7 890h-30z"/>
+      <path d="M0-750a105 105 0 010 210 105 105 0 010-210z"/>
+    </g>
+    <g id="c">
+      <use xlink:href="#d"/>
+      <use transform="rotate(6)" xlink:href="#a"/>
+      <use transform="rotate(12)" xlink:href="#a"/>
+      <use transform="rotate(18)" xlink:href="#a"/>
+      <use transform="rotate(24)" xlink:href="#a"/>
+    </g>
+    <g id="b">
+      <use xlink:href="#c"/>
+      <use transform="rotate(30)" xlink:href="#c"/>
+      <use transform="rotate(60)" xlink:href="#c"/>
+    </g>
+    <g id="h">
+      <use xlink:href="#b"/>
+      <use transform="rotate(90)" xlink:href="#b"/>
+      <use transform="rotate(180)" xlink:href="#b"/>
+      <use transform="rotate(270)" xlink:href="#b"/>
+    </g>
+  </defs>
+  <circle r="1104" fill="#fff" stroke="#d3d3d3" stroke-width="64"/>
+  <use xlink:href="#h"/>
+  <use style="-moz-animation:rotation 43200s linear infinite;-ms-animation:rotation 43200s linear infinite;-o-animation:rotation 43200s linear infinite;-webkit-animation:rotation 43200s linear infinite;animation:rotation 43200s linear infinite" xlink:href="#g"/>
+  <use style="-moz-animation:rotation 3600s linear infinite;-ms-animation:rotation 3600s linear infinite;-o-animation:rotation 3600s linear infinite;-webkit-animation:rotation 3600s linear infinite;animation:rotation 3600s linear infinite" xlink:href="#f"/>
+  <use fill="#bd2420" style="-moz-animation:rotation 60s linear infinite;-ms-animation:rotation 60s linear infinite;-o-animation:rotation 60s linear infinite;-webkit-animation:rotation 60s linear infinite;animation:rotation 60s linear infinite" xlink:href="#e"/>
+  <circle r="5" fill="#fff"/>
+</svg>

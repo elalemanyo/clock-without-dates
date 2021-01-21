@@ -1,3 +1,5 @@
+[![CI Status](https://github.com/elalemanyo/clock-without-dates/workflows/ci/badge.svg)](https://github.com/elalemanyo/clock-without-dates/actions)
+
 # Clock
 
 Implement a clock that handles times without dates.

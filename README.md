@@ -2,7 +2,7 @@
   <img src="clock.svg" alt="Clock" width="300px">
 </p>
 
-[![CI Status](https://github.com/elalemanyo/clock-without-dates/workflows/CI/badge.svg)](https://github.com/elalemanyo/clock-without-dates/actions)
+[![CI](https://github.com/elalemanyo/clock-without-dates/workflows/CI/badge.svg)](https://github.com/elalemanyo/clock-without-dates/actions)
 
 # Clock
 

@@ -17,13 +17,13 @@ class Clock
   def + (clock)
     hour = self.hour + clock.hour
     minute = self.minute + clock.minute
-    return Clock.new(hour: hour, minute: minute)
+    Clock.new(hour: hour, minute: minute)
   end
 
   def - (clock)
     hour = self.hour - clock.hour
     minute = self.minute - clock.minute
-    return Clock.new(hour: hour, minute: minute)
+    Clock.new(hour: hour, minute: minute)
   end
 
   def == (clock)

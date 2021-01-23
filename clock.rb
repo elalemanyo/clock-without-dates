@@ -14,19 +14,19 @@ class Clock
     Time.at(seconds).utc.strftime("%H:%M")
   end
 
-  def + (clock)
+  def +(clock)
     hour = self.hour + clock.hour
     minute = self.minute + clock.minute
     Clock.new(hour: hour, minute: minute)
   end
 
-  def - (clock)
+  def -(clock)
     hour = self.hour - clock.hour
     minute = self.minute - clock.minute
     Clock.new(hour: hour, minute: minute)
   end
 
-  def == (clock)
+  def ==(clock)
     clock1 = Clock.new(hour: self.hour, minute: self.minute)
     clock2 = Clock.new(hour: clock.hour, minute: clock.minute)
     clock1.to_s == clock2.to_s
